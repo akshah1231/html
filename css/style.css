@@ -1,0 +1,118 @@
+@import 'utilities.css';
+:root {
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --black: #000000;
+    --white: #FFFFFF;
+    --text: #c8c8c1;
+    --body: #919999;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialiased;
+}
+
+header {
+    background: var(--black);
+}
+
+#logo {
+    height: 4em;
+}
+
+#mypic {
+    height: 12rem;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav {
+    padding: 2rem 0;
+}
+
+header nav .brand {
+    margin-right: 3rem;
+}
+
+.rightbody {
+    color: var(--text);
+    padding: 1rem 15px;
+    margin: 2rem auto;
+}
+
+.home {
+    text-align: center;
+    padding: 2rem 15px;
+    margin: 2rem auto;
+}
+
+.home .rightbody h1 {
+    color: var(--primary);
+}
+
+section.about {
+    text-align: center;
+    padding: 2rem 15px;
+    margin: 2rem auto;
+}
+
+section.about .container h1 {
+    color: var(--primary);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 2rem 2rem;
+    margin: 1rem 2rem;
+}
+
+section.about .container h3 {
+    color: var(--black);
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+}
+
+section.contact {
+    text-align: center;
+    padding: 2rem 15px;
+    margin: 2rem auto;
+}
+
+section.contact h1 {
+    color: var(--primary);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 2rem 2rem;
+    margin: 1rem 2rem;
+}
+
+section.contact .link img {
+    height: 4rem;
+    padding: 1rem 1rem;
+    margin: 2rem 2 rem;
+}
+
+section.contact .link img #linkedin {
+    height: 5rem;
+}
